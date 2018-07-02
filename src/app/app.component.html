@@ -1,20 +1,84 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="conteneur1">
 
+  <div class="menu-haut">
+    <span class="accueil">Accueil</span>
+    <span class="propos">A propos de nous</span>
+    <span class="contact">Contact</span>
+    <span class="login">Se connecter</span>
+  </div>
+
+  <div class="brand">
+    TIKKETAM
+  </div>
+  <div class="presentation">
+    <div class="slogan">
+      L'heure pile!
+    </div>
+
+    <div class="vp">
+      Obtenez vos rendez-vous avant de vous déplacer. Achetez vos ticket en ligne!
+    </div>
+  </div>
+  <div class="bouton-principal">
+    <button>
+      <a href="#"></a>Acheter un ticket</button>
+  </div>
+
+  <div class="section-bus">
+    <title>Lignes de bus</title>
+    <div class="s1">
+
+      <div class="section-depart">
+        <h2 class="titre">Départ:</h2>
+        <span class="depart">
+          <form action="#" id="form-s1">
+            <label for="nom-pays-dep">Pays</label>
+            <select type="text" name="nom-pays-dep" id="nom-pays-dep">
+              <option value="SENEGAL" selected>SENEGAL</option>
+              <option value="MALI">MALI</option>
+              <option value="MAURITANIE">MAURITANIE</option>
+              <option value="GUINEE">GUINEE</option>
+            </select>
+
+          </form>
+          <label for="ville-dep">ville</label>
+          <input form="form-s1" name="ville-dep" id="ville-dep" type="text">
+          <label for="date-depart">Date de départ</label>
+          <input form="form-s1" name="date-depart" id="date-depart" type="date">
+        </span>
+      </div>
+
+      <div class="section-destination">
+        <h2 class="titre">Destination:</h2>
+        <span class="destination">
+          <label for="nom-pays-des">Pays</label>
+          <select form="form-s1" type="text" name="nom-pays-des" id="nom-pays-des">
+            <option value="SENEGAL" selected>SENEGAL</option>
+            <option value="MALI">MALI</option>
+            <option value="MAURITANIE">MAURITANIE</option>
+            <option value="GUINEE">GUINEE</option>
+          </select>
+          <label for="ville-des">ville</label>
+          <input form="form-s1" name="ville-des" id="ville-des" type="text">
+
+        </span>
+      </div>
+
+      <div>
+        <button form="form-s1" type="submit">Afficher</button>
+      </div>
+
+    </div>
+
+    <div class="s2">
+      <form action="#" id="form-s2">
+        <input name="nom-ligne" type="text" placeholder="nom de la ligne">
+      </form>
+      <button type="submit" form="form-s2">Rechercher</button>
+    </div>
+
+  </div>
+
+
+
+</div>

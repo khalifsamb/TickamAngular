@@ -1,0 +1,49 @@
+.menu-haut {
+    display: block;
+    color: brown;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: silver;
+    width: 80%;
+    height: 35px;
+    padding-top: 10px;
+    
+
+}
+.accueil, .propos{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.login {
+   
+}
+
+.brand {
+    font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 2em;
+    font: bold;
+    color: #2F17D1;
+}
+.slogan{
+    font-size: 2em;
+    text-align: center;
+   
+
+}
+.vp{
+    font-size: 20px;
+}
+.presentation{
+    margin-top: 40px;
+    display: block;
+    width: 30%;
+    height: 5em;
+    background-color: azure;
+    color: #2F17D1;
+    font: bold;
+    
+    padding-top: 10px;
+    
+}
