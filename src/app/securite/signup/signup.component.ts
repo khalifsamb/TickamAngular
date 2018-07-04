@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AngularFireAuthModule, AngularFireAuth } from 'angularfire2/auth';
+import { AngularFireAuth } from 'angularfire2/auth';
 //import { auth } from 'firebase';
 import { Router } from '@angular/router';
 //import {moveIn, fallIn} from '..//router.animations';
